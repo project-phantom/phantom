@@ -1,0 +1,13 @@
+Flask
+Flask-SQLAlchemy
+Jinja2
+SQLAlchemy
+Werkzeug
+wsgiref
+Flask-WTF
+alembic
+itsdangerous
+bcrypt
+jinja2
+flask-cors
+flask_wtf

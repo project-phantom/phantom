@@ -3,15 +3,14 @@ drop table if exists events;
 drop table if exists attendance;
 
 CREATE TABLE if not exists users (
-  id integer primary key not null, 
-  user_id varchar(50) not null,
+  user_id int primary key not null AUTO_INCREMENT,
   name varchar (255) not null, 
   token varchar(100)
 );
 
 CREATE TABLE if not exists events (
-  id integer primary key not null, 
-  event_id varchar (255) not null,
+  -- id integer primary key not null, 
+  event_id int  primary key not null AUTO_INCREMENT,
   title varchar(255) not null,
   venue varchar(255),
   date_slot datetime not null,
